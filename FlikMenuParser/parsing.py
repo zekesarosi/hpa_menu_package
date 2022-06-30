@@ -1,6 +1,7 @@
 import requests
 import json
-from get_url import day_url
+from FlikMenuParser.get_url import day_url
+
 
 def request(url):
     data = requests.get(url).json()
@@ -48,7 +49,6 @@ def save(data):
 
 def collect_day(day, meta):
     url = day_url(day, meta)
-    print(url)
     data = request(url)
     menudict = dataparser(data)
     save(menudict)
