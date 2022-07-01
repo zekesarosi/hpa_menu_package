@@ -1,19 +1,4 @@
-import requests
-import json
-
-
-
-def request(url):
-    data = requests.get(url).json()
-    return data
-
-def day_url(date, meta):
-    prefix, school_id, menu_type = meta["prefix"], meta["school_id"], meta["menu_type"]
-    month, day, year = date[0], date[1], date[2]
-    url = rf"https://{prefix}.flikisdining.com/menu/api/weeks/school/{school_id}/menu-type/{menu_type}/{year}/{month}/{day}"
-    return url
-
-def dataparser(data):
+def dataparser(data, include_ingredients=True, include_nutrition_data=True):
     menudict = dict()
     print(data)
     for day in data['days']:
@@ -27,11 +12,22 @@ def dataparser(data):
                     daylist.append(station_name)
                 else:
                     food_dict = info["food"]
-                    daylist.append({
+                    if include_ingredients and include_nutrition_data:
+                        daylist.append({
                         "name": food_dict['name'],
                         "ingredients": food_dict["ingredients"].split(","),
                         "nutrition info": food_dict["rounded_nutrition_info"],
-                    })
+                        })
+                    elif include_nutrition_data and not include_ingredients:
+                        daylist.append({
+                            "name": food_dict['name'],
+                            "nutrition info": food_dict["rounded_nutrition_info"],
+                        })
+                    elif include_ingredients and not include_nutrition_data:
+                        daylist.append({
+                            "name": food_dict['name'],
+                            "ingredients": food_dict["ingredients"].split(","),
+                        })
             station_list = ["Entree/Sides", "Vegetarian", "Pizza, Flatbreads", "Chefs Table", "Deli", "Vegan"]
             station_index_a = 0
             day_dict = {}
@@ -49,21 +45,3 @@ def dataparser(data):
     return menudict
 
 
-def save(data):
-    with open(file=input("filename to write json object to: ") + '.json', mode='w') as file:
-        json.dump(data, file)
-
-def collect_day(day, meta):
-    url = day_url(day, meta)
-    data = request(url)
-    menudict = dataparser(data)
-    save(menudict)
-
-school_info = {
-    "prefix": 'hawaiiprep',
-    "school_id": '6812',
-    "menu_type": '3106',
-}
-if __name__ == "__main__":
-    date = ["04", "22", "2022"]
-    print(collect_day(date, school_info))
