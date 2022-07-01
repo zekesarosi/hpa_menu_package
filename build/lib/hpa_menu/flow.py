@@ -1,4 +1,4 @@
-import 
+import parsing
 
 def collect_day(day):
     school_info = {
@@ -8,8 +8,8 @@ def collect_day(day):
     }
     url = day_url(day)
     data = request(url)
-    menudict = dataparser(data)
-
+    menudict = parsing.dataparser(data)
+    return menudict
 
 def request(url):
     data = requests.get(url).json()

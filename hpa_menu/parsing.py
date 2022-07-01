@@ -1,3 +1,53 @@
+import json
+import requests
+
+def save(data):
+    with open(file=input("filename to write json object to: ") + '.json', mode='w') as file:
+        json.dump(data, file)
+
+def check_len(month):
+    year = '2022'
+    months = {"0" + str(month) if len(str(month)) < 2 else str(month) for month in range(1, 13)}
+    three_months = {"04", "06", "09", "11"}
+    three_one_months = months - three_months - {"02"}
+    month = "0" + str(month) if len(str(month)) < 2 else str(month)
+    if month in months and month in three_one_months:
+        return 31
+    if month in months and month in three_months:
+        return 30
+    if month == "02":
+        if int(year) % 4 == 0:
+            return 29
+        else:
+            return 28
+
+def collect_week(day):
+    school_info = {
+        "prefix": 'hawaiiprep',
+        "school_id": '6812',
+        "menu_type": '3106',
+    }
+    url = day_url(day, school_info)
+    data = request(url)
+    menudict = dataparser(data)
+    return menudict
+
+def request(url):
+    try:
+        data = requests.get(url)
+        return data.json()
+    except:
+        print(f"Invalid Url, Response Code: {data.status_code}")
+        exit()
+
+
+def day_url(date, meta):
+    date = date.split("/")
+    prefix, school_id, menu_type = meta["prefix"], meta["school_id"], meta["menu_type"]
+    month, day, year = date[0], date[1], date[2]
+    url = rf"https://{prefix}.flikisdining.com/menu/api/weeks/school/{school_id}/menu-type/{menu_type}/{year}/{month}/{day}"
+    return url
+
 def dataparser(data, include_ingredients=True, include_nutrition_data=True):
     menudict = dict()
     print(data)
