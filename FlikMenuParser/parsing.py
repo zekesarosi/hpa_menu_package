@@ -1,11 +1,17 @@
 import requests
 import json
-from FlikMenuParser.get_url import day_url
+
 
 
 def request(url):
     data = requests.get(url).json()
     return data
+
+def day_url(date, meta):
+    prefix, school_id, menu_type = meta["prefix"], meta["school_id"], meta["menu_type"]
+    month, day, year = date[0], date[1], date[2]
+    url = rf"https://{prefix}.flikisdining.com/menu/api/weeks/school/{school_id}/menu-type/{menu_type}/{year}/{month}/{day}"
+    return url
 
 def dataparser(data):
     menudict = dict()
@@ -21,7 +27,11 @@ def dataparser(data):
                     daylist.append(station_name)
                 else:
                     food_dict = info["food"]
-                    daylist.append(food_dict['name'])
+                    daylist.append({
+                        "name": food_dict['name'],
+                        "ingredients": food_dict["ingredients"].split(","),
+                        "nutrition info": food_dict["rounded_nutrition_info"],
+                    })
             station_list = ["Entree/Sides", "Vegetarian", "Pizza, Flatbreads", "Chefs Table", "Deli", "Vegan"]
             station_index_a = 0
             day_dict = {}
@@ -31,16 +41,12 @@ def dataparser(data):
                     station_index = daylist.index(station_list[ind])
                 except:
                     station_index = len(daylist)
-
                 dishes = [dish for dish in daylist[(station_index_a + 1) : (station_index)]]
                 station_index_a = station_index
                 ind += 1
-
                 day_dict[stations] = dishes
-
             menudict[date] = day_dict
     return menudict
-
 
 
 def save(data):
@@ -57,8 +63,7 @@ school_info = {
     "prefix": 'hawaiiprep',
     "school_id": '6812',
     "menu_type": '3106',
-    "year": '2022',
 }
-date = ["04", "22"]
-
-print(collect_day(date, school_info))
+if __name__ == "__main__":
+    date = ["04", "22", "2022"]
+    print(collect_day(date, school_info))
