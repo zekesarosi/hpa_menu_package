@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+hpa_menu/__init__.py
+hpa_menu/flow.py
+hpa_menu/month_length.py
+hpa_menu/parsing.py
+hpa_menu/save.py
+hpa_menu.egg-info/PKG-INFO
+hpa_menu.egg-info/SOURCES.txt
+hpa_menu.egg-info/dependency_links.txt
+hpa_menu.egg-info/top_level.txt

@@ -1,3 +1,5 @@
+import 
+
 def collect_day(day):
     school_info = {
         "prefix": 'hawaiiprep',
@@ -7,7 +9,7 @@ def collect_day(day):
     url = day_url(day)
     data = request(url)
     menudict = dataparser(data)
-    save(menudict)
+
 
 def request(url):
     data = requests.get(url).json()
