@@ -1,12 +1,13 @@
 import json
 import requests
 
+
+
 def save(data):
     with open(file=input("filename to write json object to: ") + '.json', mode='w') as file:
         json.dump(data, file)
 
-def check_len(month):
-    year = '2022'
+def check_len(month, year):
     months = {"0" + str(month) if len(str(month)) < 2 else str(month) for month in range(1, 13)}
     three_months = {"04", "06", "09", "11"}
     three_one_months = months - three_months - {"02"}
@@ -21,15 +22,41 @@ def check_len(month):
         else:
             return 28
 
-def collect_week(day):
-    school_info = {
-        "prefix": 'hawaiiprep',
-        "school_id": '6812',
-        "menu_type": '3106',
-    }
-    url = day_url(day, school_info)
+
+# Pass in a month and a year. YY-MM. Either include or exclude Nutrition Info / Ingredients. full_week param when
+# True will include a whole weeks data even if some days in the begginning or ending week doesn't occur in the given
+# month. For example if Feb 1 is a thursday, the dataset will also include the Mon Tues Wed of the previous January.
+def collect_month(date, full_week=False, nutrition_info=True, ingredients=True):
+    month_specified = date.split("-")[1]
+    date += "-01"
+    year , month, day = date.split('-')[0], date.split('-')[1], date.split('-')[2]
+    start_menu = collect_week(f"{year}-{month}-{day}", nutrition_info=nutrition_info, ingredients=ingredients)
+    menu_dict = {}
+    menu_list = [start_menu]
+    cycling = True
+    while cycling:
+        day = ("0" + str(int(day) + 7) if int(day) < 3 else int(day) + 7)
+        week_menu = collect_week(f"{year}-{month}-{day}", nutrition_info=nutrition_info, ingredients=ingredients)
+        menu_list.append(week_menu)
+        if int(day) >= check_len(month, year):
+            cycling = False
+    for d in menu_list:
+        menu_dict = menu_dict | d
+    delete = []
+    if not full_week:
+        for date in menu_dict.keys():
+            year, month, day = date.split('-')[0], date.split('-')[1], date.split('-')[2]
+            if month != month_specified:
+                delete.append(date)
+        for i in delete:
+            del menu_dict[i]
+    return menu_dict
+
+
+def collect_week(date, nutrition_info=True, ingredients=True):
+    url = week_url(date)
     data = request(url)
-    menudict = dataparser(data)
+    menudict = dataparser(data, ingredients, nutrition_info)
     return menudict
 
 def request(url):
@@ -41,16 +68,21 @@ def request(url):
         exit()
 
 
-def day_url(date, meta):
-    date = date.split("/")
+def week_url(date):
+    school_info = {
+        "prefix": 'hawaiiprep',
+        "school_id": '6812',
+        "menu_type": '3106',
+    }
+    meta = school_info
+    date = date.split("-")
     prefix, school_id, menu_type = meta["prefix"], meta["school_id"], meta["menu_type"]
-    month, day, year = date[0], date[1], date[2]
+    year, month, day = date[0], date[1], date[2]
     url = rf"https://{prefix}.flikisdining.com/menu/api/weeks/school/{school_id}/menu-type/{menu_type}/{year}/{month}/{day}"
     return url
 
 def dataparser(data, include_ingredients=True, include_nutrition_data=True):
     menudict = dict()
-    print(data)
     for day in data['days']:
         if len(day['menu_items']) != 0:
             date = day['date']
@@ -77,6 +109,10 @@ def dataparser(data, include_ingredients=True, include_nutrition_data=True):
                         daylist.append({
                             "name": food_dict['name'],
                             "ingredients": food_dict["ingredients"].split(","),
+                        })
+                    elif not include_ingredients and not include_nutrition_data:
+                        daylist.append({
+                            "name": food_dict['name']
                         })
             station_list = ["Entree/Sides", "Vegetarian", "Pizza, Flatbreads", "Chefs Table", "Deli", "Vegan"]
             station_index_a = 0

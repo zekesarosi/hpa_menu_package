@@ -1,5 +1,7 @@
 import json
 import requests
+import numpy
+
 
 def save(data):
     with open(file=input("filename to write json object to: ") + '.json', mode='w') as file:
@@ -21,30 +23,63 @@ def check_len(month):
         else:
             return 28
 
-def collect_day(day):
+# Pass in a month and a year. YY-MM. Either include or exclude Nutrition Info / Ingredients. full_week param when
+# True will include a whole weeks data even if some days in the begginning or ending week doesn't occur in the given
+# month. For example if Feb 1 is a thursday, the dataset will also include the Mon Tues Wed of the previous January.
+def collect_month(date, full_week=False, nutrition_info=True, ingredients=True):
+    date = numpy.busday_offset(date, 0, roll=('backward'), weekmask='Mon')
+    year , month, day = date.split('-')[0], date.split('-')[1], date.split('-')[2]
+    start_menu = collect_week(f"{year}-{month}-{day}")
+    menu_dict = {}
+    menu_list = [start_menu]
+    cycling = True
+    while cycling:
+        day += 7
+        week_menu = collect_week(f"{year}-{month}-{day}")
+        menu_list.append(week_menu)
+        if day >= check_len(month):
+            cycling = False
+    for d in menu_list:
+        menu_dict.update(d)
+    """
+        if not full_week:
+        for day in menu_dict.items():
+    """
+
+
+    return menu_dict
+
+
+def collect_week(day, nutrition_info=True, ingredients=True):
+    url = week_url(day)
+    data = request(url)
+    menudict = dataparser(data, ingredients, nutrition_info)
+    return menudict
+
+def request(url):
+    try:
+        data = requests.get(url)
+        return data.json()
+    except:
+        print(f"Invalid Url, Response Code: {data.status_code}")
+        exit()
+
+
+def week_url(date):
     school_info = {
         "prefix": 'hawaiiprep',
         "school_id": '6812',
         "menu_type": '3106',
     }
-    url = day_url(day)
-    data = request(url)
-    menudict = dataparser(data)
-    return menudict
-
-def request(url):
-    data = requests.get(url).json()
-    return data
-
-def day_url(date, meta):
+    meta = school_info
+    date = date.split("-")
     prefix, school_id, menu_type = meta["prefix"], meta["school_id"], meta["menu_type"]
-    month, day, year = date[0], date[1], date[2]
+    year, month, day = date[0], date[1], date[2]
     url = rf"https://{prefix}.flikisdining.com/menu/api/weeks/school/{school_id}/menu-type/{menu_type}/{year}/{month}/{day}"
     return url
 
 def dataparser(data, include_ingredients=True, include_nutrition_data=True):
     menudict = dict()
-    print(data)
     for day in data['days']:
         if len(day['menu_items']) != 0:
             date = day['date']
@@ -71,6 +106,10 @@ def dataparser(data, include_ingredients=True, include_nutrition_data=True):
                         daylist.append({
                             "name": food_dict['name'],
                             "ingredients": food_dict["ingredients"].split(","),
+                        })
+                    elif not include_ingredients and not include_nutrition_data:
+                        daylist.append({
+                            "name": food_dict['name']
                         })
             station_list = ["Entree/Sides", "Vegetarian", "Pizza, Flatbreads", "Chefs Table", "Deli", "Vegan"]
             station_index_a = 0
