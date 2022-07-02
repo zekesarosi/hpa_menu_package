@@ -3,8 +3,8 @@ import requests
 
 
 
-def save(data):
-    with open(file=input("filename to write json object to: ") + '.json', mode='w') as file:
+def save(data, file_name):
+    with open(file=file_name, mode='w') as file:
         json.dump(data, file)
 
 def check_len(month, year):
@@ -64,7 +64,7 @@ def request(url):
         data = requests.get(url)
         return data.json()
     except:
-        print(f"Invalid Url, Response Code: {data.status_code}")
+        print(f"Invalid Url, Response Code: {data.status_code}. Probable that was an invalid date")
         exit()
 
 
