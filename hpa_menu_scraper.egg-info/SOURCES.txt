@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+hpa_menu/__init__.py
+hpa_menu/parse.py
+hpa_menu_scraper.egg-info/PKG-INFO
+hpa_menu_scraper.egg-info/SOURCES.txt
+hpa_menu_scraper.egg-info/dependency_links.txt
+hpa_menu_scraper.egg-info/top_level.txt
