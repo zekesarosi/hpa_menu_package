@@ -15,7 +15,7 @@ The image below shows the webpage that serves the data in which the python packa
 The package can be installed using pip:
 
 ```
-pip3 install hpa_menu
+pip3 install hpa-menu-scraper
 ```
 The package requires python 3.9 or higher. 
 The package's only dependency is the **requests** package.
