@@ -5,7 +5,7 @@ import requests
 
 def save(data, file_name):
     with open(file=file_name, mode='w') as file:
-        json.dump(data, file, indent=4)
+        json.dump(data, file)
 
 def check_len(month, year):
     months = {"0" + str(month) if len(str(month)) < 2 else str(month) for month in range(1, 13)}

@@ -15,7 +15,7 @@ The image below shows the webpage that serves the data in which the python packa
 The package can be installed using pip:
 
 ```
-pip3 install hpa-menu-scraper
+pip install hpa-menu-scraper
 ```
 The package requires python 3.9 or higher. 
 The package's only dependency is the **requests** package.
@@ -74,3 +74,10 @@ menu_data_dict = parser.collect_month("2022-04", full_week=True, nutrition_info=
 # Save dict object as a json file
 parser.save(menu_data_dict, file_name="april_menu_data.json")
 ```
+
+# Dictionary Object Structure
+Object that `collect_week()` and `collect_month()` functions return is a large dictionary with dates as the keys and individual day menus as the objects.
+The day objects are nested dictionaries with station names as the keys and menu data as the object.
+The menu data for each station is a list with each item being a food item within that station.
+The food item is a nested dictionary with the "name" key having the food name as it's value, and the "ingredients" key having a list of ingredients as its value.
+Note: food item dictionary won't have ingredient or nutrition info if specified in data collection.
