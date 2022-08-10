@@ -29,7 +29,7 @@ def check_len(month, year):
 def collect_month(date, full_week=False, nutrition_info=True, ingredients=True):
     month_specified = date.split("-")[1]
     date += "-01"
-    year , month, day = date.split('-')[0], date.split('-')[1], date.split('-')[2]
+    year, month, day = date.split('-')[0], date.split('-')[1], date.split('-')[2]
     start_menu = collect_week(f"{year}-{month}-{day}", nutrition_info=nutrition_info, ingredients=ingredients)
     menu_dict = {}
     menu_list = [start_menu]
