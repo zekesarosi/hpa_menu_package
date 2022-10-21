@@ -1,5 +1,6 @@
 import json
 import requests
+import threading
 
 
 
@@ -22,6 +23,42 @@ def check_len(month, year):
         else:
             return 28
 
+def collect_week_multi(date, lock, menulist, nutrition_info=True, ingredients=True):
+    url = week_url(date)
+    data = request(url)
+    menudict = dataparser(data, ingredients, nutrition_info)
+    lock.acquire()
+    menulist.append(menudict)
+    lock.release()
+    print(menudict)
+
+def collect_month_multi(date, full_week=False, nutrition_info=True, ingredients=True):
+    lock = threading.Lock()
+    month_specified = date.split("-")[1]
+    date += "-01"
+    year, month, day = date.split('-')[0], date.split('-')[1], date.split('-')[2]
+    start_menu = collect_week(f"{year}-{month}-{day}", nutrition_info=nutrition_info, ingredients=ingredients)
+    menu_dict = {}
+    weeks = [ele*7 for ele in range(1,3)]
+    thread_list = []
+    menu_list = [start_menu]
+    for day in weeks:
+        thread = threading.Thread(target=collect_week_multi, args=[f"{year}-{month}-{day}", lock, menu_list, False, False])
+        thread.start()
+        thread_list.append(thread)
+    for t in thread_list:
+        t.join()
+    for d in menu_list:
+        menu_dict = menu_dict | d
+    delete = []
+    if not full_week:
+        for date in menu_dict.keys():
+            year, month, day = date.split('-')[0], date.split('-')[1], date.split('-')[2]
+            if month != month_specified:
+                delete.append(date)
+        for i in delete:
+            del menu_dict[i]
+    return menu_dict
 
 # Pass in a month and a year. YY-MM. Either include or exclude Nutrition Info / Ingredients. full_week param when
 # True will include a whole weeks data even if some days in the begginning or ending week doesn't occur in the given
@@ -57,6 +94,7 @@ def collect_week(date, nutrition_info=True, ingredients=True):
     url = week_url(date)
     data = request(url)
     menudict = dataparser(data, ingredients, nutrition_info)
+
     return menudict
 
 def request(url):

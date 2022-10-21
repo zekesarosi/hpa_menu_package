@@ -1,0 +1,1956 @@
+{
+    "2022-09-01": {
+        "Entree/Sides": [
+            {
+                "name": "BBQ Beef Brisket",
+                "ingredients": [
+                    "Beef Stock",
+                    " Beef",
+                    " Salt",
+                    " Bay Leaf",
+                    " Ginger (Ginger and Sulfur Dioxide)",
+                    " Black Pepper",
+                    " Black Pepper",
+                    " Cayenne Pepper",
+                    " Brown Sugar (sugar cane syrups) ",
+                    " Sugar",
+                    " Water",
+                    " Chablis Wine"
+                ],
+                "nutrition info": {
+                    "calories": 310.0,
+                    "raw_calories": 310.0,
+                    "g_fat": 19.0,
+                    "g_saturated_fat": 8.0,
+                    "g_trans_fat": null,
+                    "mg_cholesterol": 110.0,
+                    "g_carbs": 3.0,
+                    "g_sugar": null,
+                    "g_added_sugar": null,
+                    "mg_sodium": 430.0,
+                    "mg_potassium": 260.0,
+                    "g_fiber": 0.0,
+                    "g_protein": 30.0,
+                    "mg_iron": 2.7,
+                    "mg_calcium": 22.4,
+                    "mg_vitamin_c": 0.1,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": null
+                }
+            },
+            {
+                "name": "Boiled New Potatoes, Parsley",
+                "ingredients": [
+                    "Parsley",
+                    " New Potatoes",
+                    " Salt",
+                    " Black Pepper"
+                ],
+                "nutrition info": {
+                    "calories": 80.0,
+                    "raw_calories": 80.0,
+                    "g_fat": 0.0,
+                    "g_saturated_fat": 0.0,
+                    "g_trans_fat": 0.0,
+                    "mg_cholesterol": 0.0,
+                    "g_carbs": 18.0,
+                    "g_sugar": 1.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 75.0,
+                    "mg_potassium": 360.0,
+                    "g_fiber": 2.0,
+                    "g_protein": 2.0,
+                    "mg_iron": 0.4,
+                    "mg_calcium": 8.0,
+                    "mg_vitamin_c": 13.7,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": 0.0
+                }
+            },
+            {
+                "name": "Sauteed Chard with Mushrooms",
+                "ingredients": [
+                    "Garlic ",
+                    " Ginger ",
+                    " Mushrooms",
+                    " Canola Oil",
+                    " Black Pepper",
+                    " Swiss Chard"
+                ],
+                "nutrition info": {
+                    "calories": 30.0,
+                    "raw_calories": 30.0,
+                    "g_fat": 1.0,
+                    "g_saturated_fat": 0.0,
+                    "g_trans_fat": 0.0,
+                    "mg_cholesterol": 0.0,
+                    "g_carbs": 5.0,
+                    "g_sugar": 2.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 90.0,
+                    "mg_potassium": 450.0,
+                    "g_fiber": 1.0,
+                    "g_protein": 2.0,
+                    "mg_iron": 1.0,
+                    "mg_calcium": 34.3,
+                    "mg_vitamin_c": 12.7,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": 1.9
+                }
+            }
+        ],
+        "Vegetarian": [
+            {
+                "name": "Beyond Bratwurst, Sauerkraut, Roll",
+                "ingredients": [
+                    "Yellow Mustard",
+                    " Hoagie Roll",
+                    " Saurekraut (Cabbage water salt)",
+                    " Vegan Brat Sausage"
+                ],
+                "nutrition info": {
+                    "calories": 480.0,
+                    "raw_calories": 480.0,
+                    "g_fat": 18.0,
+                    "g_saturated_fat": 7.0,
+                    "g_trans_fat": 0.0,
+                    "mg_cholesterol": 0.0,
+                    "g_carbs": 52.0,
+                    "g_sugar": 3.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 1500.0,
+                    "mg_potassium": 420.0,
+                    "g_fiber": 6.0,
+                    "g_protein": 26.0,
+                    "mg_iron": 7.8,
+                    "mg_calcium": 139.0,
+                    "mg_vitamin_c": null,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": null
+                }
+            }
+        ],
+        "Pizza, Flatbreads": [
+            {
+                "name": "Pepperoni Flatbread Pizza",
+                "ingredients": [
+                    "Basil Fresh Chopped",
+                    " Part Skim Mozzarella Cheese",
+                    " Cheese Parmesan Pre-Shredded Fancy",
+                    " Flatbread",
+                    " Garlic Cloves Peeled Fresh Chopped",
+                    " Oil Olive Extra Virgin",
+                    " Pepperoni",
+                    " Salt Kosher",
+                    " Spice Pepper Black Ground",
+                    " Sugar Granulated",
+                    " Tomatoes Crushed Canned Including Liquids"
+                ],
+                "nutrition info": {
+                    "calories": 400.0,
+                    "raw_calories": 400.0,
+                    "g_fat": 23.0,
+                    "g_saturated_fat": 10.0,
+                    "g_trans_fat": null,
+                    "mg_cholesterol": 50.0,
+                    "g_carbs": 29.0,
+                    "g_sugar": 4.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 890.0,
+                    "mg_potassium": null,
+                    "g_fiber": 1.0,
+                    "g_protein": 21.0,
+                    "mg_iron": 1.9,
+                    "mg_calcium": 416.0,
+                    "mg_vitamin_c": 2.0,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": null
+                }
+            },
+            {
+                "name": "Cheese Flatbread Pizza",
+                "ingredients": [
+                    "Basil Fresh Chopped",
+                    " Part Skim Mozzarella Cheese",
+                    " Cheese Parmesan Pre-Shredded Fancy",
+                    " Flatbread",
+                    " Garlic Cloves Peeled Fresh Chopped",
+                    " Oil Olive Extra Virgin",
+                    " Salt Kosher",
+                    " Spice Pepper Black Ground",
+                    " Sugar Granulated",
+                    " Tomatoes Crushed Canned Including Liquids"
+                ],
+                "nutrition info": {
+                    "calories": 340.0,
+                    "raw_calories": 340.0,
+                    "g_fat": 17.0,
+                    "g_saturated_fat": 8.0,
+                    "g_trans_fat": null,
+                    "mg_cholesterol": 35.0,
+                    "g_carbs": 28.0,
+                    "g_sugar": 4.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 700.0,
+                    "mg_potassium": null,
+                    "g_fiber": 1.0,
+                    "g_protein": 18.0,
+                    "mg_iron": 1.8,
+                    "mg_calcium": 415.0,
+                    "mg_vitamin_c": 2.0,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": null
+                }
+            },
+            {
+                "name": "Cheese Pizza, Cauliflower Crust",
+                "ingredients": [
+                    "Basil Fresh Chopped",
+                    " Part Skim Mozzarella Cheese",
+                    " Cheese Parmesan Pre-Shredded Fancy",
+                    " Garlic Cloves Peeled Fresh Chopped",
+                    " Oil Olive Extra Virgin",
+                    " Cauliflower Pizza Crust",
+                    " Salt Kosher",
+                    " Spice Pepper Black Ground",
+                    " Sugar Granulated",
+                    " Tomatoes Crushed Canned Including Liquids"
+                ],
+                "nutrition info": {
+                    "calories": 530.0,
+                    "raw_calories": 530.0,
+                    "g_fat": 25.0,
+                    "g_saturated_fat": 14.0,
+                    "g_trans_fat": null,
+                    "mg_cholesterol": 75.0,
+                    "g_carbs": 48.0,
+                    "g_sugar": 7.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 1100.0,
+                    "mg_potassium": 450.0,
+                    "g_fiber": 2.0,
+                    "g_protein": 29.0,
+                    "mg_iron": 2.0,
+                    "mg_calcium": 793.0,
+                    "mg_vitamin_c": 5.5,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": 24.7
+                }
+            }
+        ],
+        "Chefs Table": [
+            {
+                "name": "Grilled Chicken Caesar Salad",
+                "ingredients": [
+                    "Bread Rye Deli Sliced 1.5 oz",
+                    " Bread Wheat Loaf Fresh Cubed",
+                    " Cheese Parmesan Grated",
+                    " Parmesan Cheese",
+                    " Chicken Breast Boneless Random FLIK ONLY Raw",
+                    " Garlic Cloves Peeled Fresh Minced",
+                    " Chopped Lettuce",
+                    " Oil Canola",
+                    " Oil",
+                    " Parsley Italian Fresh Chopped",
+                    " Roll Hoagie 8\" Unsliced 3 oz",
+                    " Asiago Caesar Dressing",
+                    " Salt Kosher",
+                    " Spice Pepper Black Ground",
+                    " Tomatoes"
+                ],
+                "nutrition info": {
+                    "calories": 700.0,
+                    "raw_calories": 700.0,
+                    "g_fat": 50.0,
+                    "g_saturated_fat": 12.0,
+                    "g_trans_fat": null,
+                    "mg_cholesterol": 115.0,
+                    "g_carbs": 21.0,
+                    "g_sugar": 6.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 1400.0,
+                    "mg_potassium": null,
+                    "g_fiber": 4.0,
+                    "g_protein": 41.0,
+                    "mg_iron": 3.2,
+                    "mg_calcium": 488.0,
+                    "mg_vitamin_c": 14.0,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": null
+                }
+            },
+            {
+                "name": "Grilled Tofu",
+                "ingredients": [
+                    "Garlic",
+                    " Ginger ",
+                    " Canola Oil",
+                    " Salt",
+                    " Black Pepper",
+                    " Sesame Seeds",
+                    " Tofu"
+                ],
+                "nutrition info": {
+                    "calories": 170.0,
+                    "raw_calories": 170.0,
+                    "g_fat": 14.0,
+                    "g_saturated_fat": 1.5,
+                    "g_trans_fat": null,
+                    "mg_cholesterol": 0.0,
+                    "g_carbs": 4.0,
+                    "g_sugar": null,
+                    "g_added_sugar": null,
+                    "mg_sodium": 25.0,
+                    "mg_potassium": 170.0,
+                    "g_fiber": 1.0,
+                    "g_protein": 10.0,
+                    "mg_iron": 6.6,
+                    "mg_calcium": 431.0,
+                    "mg_vitamin_c": 0.5,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": 0.0
+                }
+            }
+        ],
+        "Deli": [
+            {
+                "name": "Potato Chips",
+                "ingredients": [
+                    "Potato Chips"
+                ],
+                "nutrition info": {
+                    "calories": 160.0,
+                    "raw_calories": 160.0,
+                    "g_fat": 10.0,
+                    "g_saturated_fat": 1.0,
+                    "g_trans_fat": 0.0,
+                    "mg_cholesterol": 0.0,
+                    "g_carbs": 15.0,
+                    "g_sugar": 1.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 170.0,
+                    "mg_potassium": 350.0,
+                    "g_fiber": 1.0,
+                    "g_protein": 2.0,
+                    "mg_iron": 0.6,
+                    "mg_calcium": 8.0,
+                    "mg_vitamin_c": 6.4,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": null
+                }
+            },
+            {
+                "name": "Grilled Vegetables",
+                "ingredients": [
+                    "Eggplant",
+                    " Canola Oil",
+                    " Salt",
+                    " Black Pepper",
+                    " Squash",
+                    " Zucchini"
+                ],
+                "nutrition info": {
+                    "calories": 50.0,
+                    "raw_calories": 50.0,
+                    "g_fat": 2.5,
+                    "g_saturated_fat": 0.0,
+                    "g_trans_fat": 0.0,
+                    "mg_cholesterol": 0.0,
+                    "g_carbs": 7.0,
+                    "g_sugar": 5.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 40.0,
+                    "mg_potassium": 370.0,
+                    "g_fiber": 3.0,
+                    "g_protein": 2.0,
+                    "mg_iron": 0.6,
+                    "mg_calcium": 24.4,
+                    "mg_vitamin_c": 20.3,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": 0.0
+                }
+            },
+            {
+                "name": "Grilled Chicken",
+                "ingredients": [
+                    "Chicken",
+                    " Canola Oil",
+                    " Salt",
+                    " Black Pepper"
+                ],
+                "nutrition info": {
+                    "calories": 160.0,
+                    "raw_calories": 160.0,
+                    "g_fat": 7.0,
+                    "g_saturated_fat": 1.5,
+                    "g_trans_fat": 0.0,
+                    "mg_cholesterol": 90.0,
+                    "g_carbs": 0.0,
+                    "g_sugar": 0.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 240.0,
+                    "mg_potassium": 280.0,
+                    "g_fiber": 0.0,
+                    "g_protein": 25.0,
+                    "mg_iron": 0.4,
+                    "mg_calcium": 5.0,
+                    "mg_vitamin_c": 0.0,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": 0.9
+                }
+            },
+            {
+                "name": "Meatless Burger",
+                "ingredients": [
+                    "Meatless Burger"
+                ],
+                "nutrition info": {
+                    "calories": 340.0,
+                    "raw_calories": 340.0,
+                    "g_fat": 24.0,
+                    "g_saturated_fat": 8.0,
+                    "g_trans_fat": 0.0,
+                    "mg_cholesterol": null,
+                    "g_carbs": 9.0,
+                    "g_sugar": 1.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 510.0,
+                    "mg_potassium": null,
+                    "g_fiber": 2.0,
+                    "g_protein": 22.0,
+                    "mg_iron": 1.8,
+                    "mg_calcium": 39.5,
+                    "mg_vitamin_c": 0.0,
+                    "iu_vitamin_a": 99.8,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": null
+                }
+            },
+            {
+                "name": "Sliced Provolone Cheese",
+                "ingredients": [
+                    "Provolone Cheese"
+                ],
+                "nutrition info": {
+                    "calories": 100.0,
+                    "raw_calories": 100.0,
+                    "g_fat": 8.0,
+                    "g_saturated_fat": 5.0,
+                    "g_trans_fat": null,
+                    "mg_cholesterol": 20.0,
+                    "g_carbs": 1.0,
+                    "g_sugar": 0.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 210.0,
+                    "mg_potassium": 40.0,
+                    "g_fiber": 0.0,
+                    "g_protein": 7.0,
+                    "mg_iron": 0.1,
+                    "mg_calcium": 215.0,
+                    "mg_vitamin_c": 0.0,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": 5.7
+                }
+            },
+            {
+                "name": "Sliced Cheddar Cheese",
+                "ingredients": [
+                    "Cheddar Cheese"
+                ],
+                "nutrition info": {
+                    "calories": 90.0,
+                    "raw_calories": 90.0,
+                    "g_fat": 7.0,
+                    "g_saturated_fat": 4.0,
+                    "g_trans_fat": null,
+                    "mg_cholesterol": 20.0,
+                    "g_carbs": 1.0,
+                    "g_sugar": 0.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 150.0,
+                    "mg_potassium": 15.0,
+                    "g_fiber": 0.0,
+                    "g_protein": 5.0,
+                    "mg_iron": 0.0,
+                    "mg_calcium": 159.0,
+                    "mg_vitamin_c": 0.0,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": 5.4
+                }
+            },
+            "Soup",
+            {
+                "name": "Vegetable Miso Soup",
+                "ingredients": [
+                    "Carrots",
+                    " Ginger ",
+                    " Mushrooms",
+                    " Mushrooms",
+                    " Green Onions",
+                    " Miso Paste",
+                    " Dried Seaweed",
+                    " Taro Root",
+                    " Water"
+                ],
+                "nutrition info": {
+                    "calories": 90.0,
+                    "raw_calories": 90.0,
+                    "g_fat": 1.0,
+                    "g_saturated_fat": 0.0,
+                    "g_trans_fat": 0.0,
+                    "mg_cholesterol": 0.0,
+                    "g_carbs": 19.0,
+                    "g_sugar": 2.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 590.0,
+                    "mg_potassium": 260.0,
+                    "g_fiber": 3.0,
+                    "g_protein": 3.0,
+                    "mg_iron": 0.8,
+                    "mg_calcium": 28.6,
+                    "mg_vitamin_c": 2.9,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": 6.6
+                }
+            }
+        ],
+        "Vegan": [
+            {
+                "name": "Beyond Bratwurst, Sauerkraut, Roll",
+                "ingredients": [
+                    "Yellow Mustard",
+                    " Hoagie Roll",
+                    " Saurekraut (Cabbage water salt)",
+                    " Vegan Brat Sausage"
+                ],
+                "nutrition info": {
+                    "calories": 480.0,
+                    "raw_calories": 480.0,
+                    "g_fat": 18.0,
+                    "g_saturated_fat": 7.0,
+                    "g_trans_fat": 0.0,
+                    "mg_cholesterol": 0.0,
+                    "g_carbs": 52.0,
+                    "g_sugar": 3.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 1500.0,
+                    "mg_potassium": 420.0,
+                    "g_fiber": 6.0,
+                    "g_protein": 26.0,
+                    "mg_iron": 7.8,
+                    "mg_calcium": 139.0,
+                    "mg_vitamin_c": null,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": null
+                }
+            }
+        ]
+    },
+    "2022-09-02": {
+        "Entree/Sides": [
+            {
+                "name": "Teriyaki Chicken Thighs",
+                "ingredients": [
+                    "Baking Soda",
+                    " Chicken ",
+                    " Teriyaki Sauce",
+                    " Water"
+                ],
+                "nutrition info": {
+                    "calories": 170.0,
+                    "raw_calories": 170.0,
+                    "g_fat": 7.0,
+                    "g_saturated_fat": 2.0,
+                    "g_trans_fat": null,
+                    "mg_cholesterol": 115.0,
+                    "g_carbs": 2.0,
+                    "g_sugar": 2.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 690.0,
+                    "mg_potassium": 270.0,
+                    "g_fiber": 0.0,
+                    "g_protein": 23.0,
+                    "mg_iron": 1.2,
+                    "mg_calcium": 11.7,
+                    "mg_vitamin_c": 0.0,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": 6.1
+                }
+            },
+            {
+                "name": "Steamed Rice",
+                "ingredients": [
+                    "Long Grain White Rice",
+                    " Water"
+                ],
+                "nutrition info": {
+                    "calories": 150.0,
+                    "raw_calories": 150.0,
+                    "g_fat": 0.0,
+                    "g_saturated_fat": 0.0,
+                    "g_trans_fat": null,
+                    "mg_cholesterol": 0.0,
+                    "g_carbs": 32.0,
+                    "g_sugar": 0.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 0.0,
+                    "mg_potassium": 70.0,
+                    "g_fiber": 1.0,
+                    "g_protein": 3.0,
+                    "mg_iron": 1.3,
+                    "mg_calcium": 31.4,
+                    "mg_vitamin_c": 0.0,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": 0.0
+                }
+            },
+            {
+                "name": "Baby Bok Choy",
+                "ingredients": [
+                    "Bok Choy",
+                    " Garlic ",
+                    " Ginger ",
+                    " Canola Oil",
+                    " Salt",
+                    " Water"
+                ],
+                "nutrition info": {
+                    "calories": 30.0,
+                    "raw_calories": 30.0,
+                    "g_fat": 2.5,
+                    "g_saturated_fat": 0.0,
+                    "g_trans_fat": 0.0,
+                    "mg_cholesterol": 0.0,
+                    "g_carbs": 2.0,
+                    "g_sugar": 1.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 190.0,
+                    "mg_potassium": 200.0,
+                    "g_fiber": 1.0,
+                    "g_protein": 1.0,
+                    "mg_iron": 0.6,
+                    "mg_calcium": 82.5,
+                    "mg_vitamin_c": 34.9,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": 0.0
+                }
+            }
+        ],
+        "Vegetarian": [
+            {
+                "name": "Eggplant Katsu Sandwich",
+                "ingredients": [
+                    "White Bread",
+                    " Panko Breadcrumbs",
+                    " Cabbage ",
+                    " Liquid Egg ",
+                    " Japanese Eggplant",
+                    " All Purpose Flour",
+                    " Salt",
+                    " Fresh Ground Black Pepper"
+                ],
+                "nutrition info": {
+                    "calories": 420.0,
+                    "raw_calories": 420.0,
+                    "g_fat": 16.0,
+                    "g_saturated_fat": 2.0,
+                    "g_trans_fat": null,
+                    "mg_cholesterol": 100.0,
+                    "g_carbs": 55.0,
+                    "g_sugar": null,
+                    "g_added_sugar": null,
+                    "mg_sodium": 1140.0,
+                    "mg_potassium": null,
+                    "g_fiber": 3.0,
+                    "g_protein": 12.0,
+                    "mg_iron": 3.8,
+                    "mg_calcium": 66.8,
+                    "mg_vitamin_c": 9.0,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": null
+                }
+            }
+        ],
+        "Pizza, Flatbreads": [
+            {
+                "name": "Pepperoni Flatbread Pizza",
+                "ingredients": [
+                    "Basil Fresh Chopped",
+                    " Part Skim Mozzarella Cheese",
+                    " Cheese Parmesan Pre-Shredded Fancy",
+                    " Flatbread",
+                    " Garlic Cloves Peeled Fresh Chopped",
+                    " Oil Olive Extra Virgin",
+                    " Pepperoni",
+                    " Salt Kosher",
+                    " Spice Pepper Black Ground",
+                    " Sugar Granulated",
+                    " Tomatoes Crushed Canned Including Liquids"
+                ],
+                "nutrition info": {
+                    "calories": 400.0,
+                    "raw_calories": 400.0,
+                    "g_fat": 23.0,
+                    "g_saturated_fat": 10.0,
+                    "g_trans_fat": null,
+                    "mg_cholesterol": 50.0,
+                    "g_carbs": 29.0,
+                    "g_sugar": 4.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 890.0,
+                    "mg_potassium": null,
+                    "g_fiber": 1.0,
+                    "g_protein": 21.0,
+                    "mg_iron": 1.9,
+                    "mg_calcium": 416.0,
+                    "mg_vitamin_c": 2.0,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": null
+                }
+            },
+            {
+                "name": "Cheese Flatbread Pizza",
+                "ingredients": [
+                    "Basil Fresh Chopped",
+                    " Part Skim Mozzarella Cheese",
+                    " Cheese Parmesan Pre-Shredded Fancy",
+                    " Flatbread",
+                    " Garlic Cloves Peeled Fresh Chopped",
+                    " Oil Olive Extra Virgin",
+                    " Salt Kosher",
+                    " Spice Pepper Black Ground",
+                    " Sugar Granulated",
+                    " Tomatoes Crushed Canned Including Liquids"
+                ],
+                "nutrition info": {
+                    "calories": 340.0,
+                    "raw_calories": 340.0,
+                    "g_fat": 17.0,
+                    "g_saturated_fat": 8.0,
+                    "g_trans_fat": null,
+                    "mg_cholesterol": 35.0,
+                    "g_carbs": 28.0,
+                    "g_sugar": 4.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 700.0,
+                    "mg_potassium": null,
+                    "g_fiber": 1.0,
+                    "g_protein": 18.0,
+                    "mg_iron": 1.8,
+                    "mg_calcium": 415.0,
+                    "mg_vitamin_c": 2.0,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": null
+                }
+            },
+            {
+                "name": "Cheese Pizza, Cauliflower Crust",
+                "ingredients": [
+                    "Basil Fresh Chopped",
+                    " Part Skim Mozzarella Cheese",
+                    " Cheese Parmesan Pre-Shredded Fancy",
+                    " Garlic Cloves Peeled Fresh Chopped",
+                    " Oil Olive Extra Virgin",
+                    " Cauliflower Pizza Crust",
+                    " Salt Kosher",
+                    " Spice Pepper Black Ground",
+                    " Sugar Granulated",
+                    " Tomatoes Crushed Canned Including Liquids"
+                ],
+                "nutrition info": {
+                    "calories": 530.0,
+                    "raw_calories": 530.0,
+                    "g_fat": 25.0,
+                    "g_saturated_fat": 14.0,
+                    "g_trans_fat": null,
+                    "mg_cholesterol": 75.0,
+                    "g_carbs": 48.0,
+                    "g_sugar": 7.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 1100.0,
+                    "mg_potassium": 450.0,
+                    "g_fiber": 2.0,
+                    "g_protein": 29.0,
+                    "mg_iron": 2.0,
+                    "mg_calcium": 793.0,
+                    "mg_vitamin_c": 5.5,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": 24.7
+                }
+            }
+        ],
+        "Chefs Table": [
+            {
+                "name": "Beef Sausage Bolognese Sauce",
+                "ingredients": [
+                    "Basil",
+                    " Beef",
+                    " Carrots",
+                    " Garlic ",
+                    " Onions",
+                    " Salt",
+                    " Italian Sausage",
+                    " Black Pepper",
+                    " Crushed tomatoes (unpeeled tomatoes tomato puree salt citric acid)",
+                    " Water"
+                ],
+                "nutrition info": {
+                    "calories": 100.0,
+                    "raw_calories": 100.0,
+                    "g_fat": 5.0,
+                    "g_saturated_fat": 1.5,
+                    "g_trans_fat": 0.0,
+                    "mg_cholesterol": 20.0,
+                    "g_carbs": 9.0,
+                    "g_sugar": 5.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 440.0,
+                    "mg_potassium": 390.0,
+                    "g_fiber": 2.0,
+                    "g_protein": 7.0,
+                    "mg_iron": 1.9,
+                    "mg_calcium": 45.5,
+                    "mg_vitamin_c": 10.3,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": 3.3
+                }
+            },
+            {
+                "name": "Marinara Sauce",
+                "ingredients": [
+                    "Basil",
+                    " Carrots",
+                    " Garlic",
+                    " Mushrooms",
+                    " Canola Oil",
+                    " Onions",
+                    " Oregano",
+                    " Parsley",
+                    " Bell Peppers",
+                    " Salt",
+                    " Red Pepper",
+                    " Spinach",
+                    " Sugar",
+                    " Tomato puree (tomato puree water tomato paste citric acid)",
+                    " Crushed tomatoes (unpeeled tomatoes tomato puree salt citric acid)"
+                ],
+                "nutrition info": {
+                    "calories": 45.0,
+                    "raw_calories": 45.0,
+                    "g_fat": 1.0,
+                    "g_saturated_fat": 0.0,
+                    "g_trans_fat": null,
+                    "mg_cholesterol": 0.0,
+                    "g_carbs": 8.0,
+                    "g_sugar": 5.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 180.0,
+                    "mg_potassium": 310.0,
+                    "g_fiber": 2.0,
+                    "g_protein": 2.0,
+                    "mg_iron": 1.3,
+                    "mg_calcium": 28.7,
+                    "mg_vitamin_c": 10.8,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": 0.1
+                }
+            },
+            {
+                "name": "Penne Pasta",
+                "ingredients": [
+                    "Canola Oil",
+                    " Penne"
+                ],
+                "nutrition info": {
+                    "calories": 120.0,
+                    "raw_calories": 120.0,
+                    "g_fat": 2.5,
+                    "g_saturated_fat": 0.0,
+                    "g_trans_fat": 0.0,
+                    "mg_cholesterol": 0.0,
+                    "g_carbs": 20.0,
+                    "g_sugar": 0.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 0.0,
+                    "mg_potassium": 30.0,
+                    "g_fiber": 1.0,
+                    "g_protein": 4.0,
+                    "mg_iron": 0.8,
+                    "mg_calcium": 4.6,
+                    "mg_vitamin_c": 0.0,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": 0.0
+                }
+            },
+            {
+                "name": "Parmesan Herbed Garlic Bread",
+                "ingredients": [
+                    "Basil",
+                    " French Bread",
+                    " Parmesan Cheese",
+                    " Garlic Cloves Peeled Fresh",
+                    " Garlic ",
+                    " Juice Lemon Fresh Pressed",
+                    " Mayonnaise Regular Kraft",
+                    " Oil Canola",
+                    " Olive Oil",
+                    " Salt Kosher",
+                    " Parsley"
+                ],
+                "nutrition info": {
+                    "calories": 210.0,
+                    "raw_calories": 210.0,
+                    "g_fat": 11.0,
+                    "g_saturated_fat": 2.5,
+                    "g_trans_fat": null,
+                    "mg_cholesterol": 5.0,
+                    "g_carbs": 22.0,
+                    "g_sugar": 2.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 400.0,
+                    "mg_potassium": 60.0,
+                    "g_fiber": 1.0,
+                    "g_protein": 6.0,
+                    "mg_iron": 1.7,
+                    "mg_calcium": 89.2,
+                    "mg_vitamin_c": 0.6,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": 1.5
+                }
+            },
+            {
+                "name": "Shredded Parmesan Cheese",
+                "ingredients": [
+                    "Parmesan Cheese"
+                ],
+                "nutrition info": {
+                    "calories": 20.0,
+                    "raw_calories": 20.0,
+                    "g_fat": 1.5,
+                    "g_saturated_fat": 1.0,
+                    "g_trans_fat": null,
+                    "mg_cholesterol": 3.0,
+                    "g_carbs": 0.0,
+                    "g_sugar": 0.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 80.0,
+                    "mg_potassium": 0.0,
+                    "g_fiber": 0.0,
+                    "g_protein": 2.0,
+                    "mg_iron": 0.0,
+                    "mg_calcium": 60.4,
+                    "mg_vitamin_c": 0.0,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": 1.0
+                }
+            },
+            {
+                "name": "Garden Salad, Balsamic Vinaigrette",
+                "ingredients": [
+                    "Carrots",
+                    " Cucumber",
+                    " Chopped Lettuce",
+                    " Organic Balsamic Vinaigrette",
+                    " Tomatoes"
+                ],
+                "nutrition info": {
+                    "calories": 25.0,
+                    "raw_calories": 25.0,
+                    "g_fat": 2.0,
+                    "g_saturated_fat": 0.0,
+                    "g_trans_fat": 0.0,
+                    "mg_cholesterol": 0.0,
+                    "g_carbs": 2.0,
+                    "g_sugar": 1.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 80.0,
+                    "mg_potassium": 190.0,
+                    "g_fiber": 1.0,
+                    "g_protein": 0.0,
+                    "mg_iron": 0.2,
+                    "mg_calcium": 8.0,
+                    "mg_vitamin_c": null,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": 0.0
+                }
+            }
+        ],
+        "Deli": [
+            {
+                "name": "Potato Chips",
+                "ingredients": [
+                    "Potato Chips"
+                ],
+                "nutrition info": {
+                    "calories": 160.0,
+                    "raw_calories": 160.0,
+                    "g_fat": 10.0,
+                    "g_saturated_fat": 1.0,
+                    "g_trans_fat": 0.0,
+                    "mg_cholesterol": 0.0,
+                    "g_carbs": 15.0,
+                    "g_sugar": 1.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 170.0,
+                    "mg_potassium": 350.0,
+                    "g_fiber": 1.0,
+                    "g_protein": 2.0,
+                    "mg_iron": 0.6,
+                    "mg_calcium": 8.0,
+                    "mg_vitamin_c": 6.4,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": null
+                }
+            },
+            {
+                "name": "Grilled Vegetables",
+                "ingredients": [
+                    "Eggplant",
+                    " Canola Oil",
+                    " Salt",
+                    " Black Pepper",
+                    " Squash",
+                    " Zucchini"
+                ],
+                "nutrition info": {
+                    "calories": 50.0,
+                    "raw_calories": 50.0,
+                    "g_fat": 2.5,
+                    "g_saturated_fat": 0.0,
+                    "g_trans_fat": 0.0,
+                    "mg_cholesterol": 0.0,
+                    "g_carbs": 7.0,
+                    "g_sugar": 5.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 40.0,
+                    "mg_potassium": 370.0,
+                    "g_fiber": 3.0,
+                    "g_protein": 2.0,
+                    "mg_iron": 0.6,
+                    "mg_calcium": 24.4,
+                    "mg_vitamin_c": 20.3,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": 0.0
+                }
+            },
+            {
+                "name": "Grilled Chicken",
+                "ingredients": [
+                    "Chicken",
+                    " Canola Oil",
+                    " Salt",
+                    " Black Pepper"
+                ],
+                "nutrition info": {
+                    "calories": 160.0,
+                    "raw_calories": 160.0,
+                    "g_fat": 7.0,
+                    "g_saturated_fat": 1.5,
+                    "g_trans_fat": 0.0,
+                    "mg_cholesterol": 90.0,
+                    "g_carbs": 0.0,
+                    "g_sugar": 0.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 240.0,
+                    "mg_potassium": 280.0,
+                    "g_fiber": 0.0,
+                    "g_protein": 25.0,
+                    "mg_iron": 0.4,
+                    "mg_calcium": 5.0,
+                    "mg_vitamin_c": 0.0,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": 0.9
+                }
+            },
+            {
+                "name": "Meatless Burger",
+                "ingredients": [
+                    "Meatless Burger"
+                ],
+                "nutrition info": {
+                    "calories": 340.0,
+                    "raw_calories": 340.0,
+                    "g_fat": 24.0,
+                    "g_saturated_fat": 8.0,
+                    "g_trans_fat": 0.0,
+                    "mg_cholesterol": null,
+                    "g_carbs": 9.0,
+                    "g_sugar": 1.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 510.0,
+                    "mg_potassium": null,
+                    "g_fiber": 2.0,
+                    "g_protein": 22.0,
+                    "mg_iron": 1.8,
+                    "mg_calcium": 39.5,
+                    "mg_vitamin_c": 0.0,
+                    "iu_vitamin_a": 99.8,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": null
+                }
+            },
+            {
+                "name": "Sliced Provolone Cheese",
+                "ingredients": [
+                    "Provolone Cheese"
+                ],
+                "nutrition info": {
+                    "calories": 100.0,
+                    "raw_calories": 100.0,
+                    "g_fat": 8.0,
+                    "g_saturated_fat": 5.0,
+                    "g_trans_fat": null,
+                    "mg_cholesterol": 20.0,
+                    "g_carbs": 1.0,
+                    "g_sugar": 0.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 210.0,
+                    "mg_potassium": 40.0,
+                    "g_fiber": 0.0,
+                    "g_protein": 7.0,
+                    "mg_iron": 0.1,
+                    "mg_calcium": 215.0,
+                    "mg_vitamin_c": 0.0,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": 5.7
+                }
+            },
+            {
+                "name": "Sliced Cheddar Cheese",
+                "ingredients": [
+                    "Cheddar Cheese"
+                ],
+                "nutrition info": {
+                    "calories": 90.0,
+                    "raw_calories": 90.0,
+                    "g_fat": 7.0,
+                    "g_saturated_fat": 4.0,
+                    "g_trans_fat": null,
+                    "mg_cholesterol": 20.0,
+                    "g_carbs": 1.0,
+                    "g_sugar": 0.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 150.0,
+                    "mg_potassium": 15.0,
+                    "g_fiber": 0.0,
+                    "g_protein": 5.0,
+                    "mg_iron": 0.0,
+                    "mg_calcium": 159.0,
+                    "mg_vitamin_c": 0.0,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": 5.4
+                }
+            },
+            "Soup",
+            {
+                "name": "Vegetable Miso Soup",
+                "ingredients": [
+                    "Carrots",
+                    " Ginger ",
+                    " Mushrooms",
+                    " Mushrooms",
+                    " Green Onions",
+                    " Miso Paste",
+                    " Dried Seaweed",
+                    " Taro Root",
+                    " Water"
+                ],
+                "nutrition info": {
+                    "calories": 90.0,
+                    "raw_calories": 90.0,
+                    "g_fat": 1.0,
+                    "g_saturated_fat": 0.0,
+                    "g_trans_fat": 0.0,
+                    "mg_cholesterol": 0.0,
+                    "g_carbs": 19.0,
+                    "g_sugar": 2.0,
+                    "g_added_sugar": null,
+                    "mg_sodium": 590.0,
+                    "mg_potassium": 260.0,
+                    "g_fiber": 3.0,
+                    "g_protein": 3.0,
+                    "mg_iron": 0.8,
+                    "mg_calcium": 28.6,
+                    "mg_vitamin_c": 2.9,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": 6.6
+                }
+            }
+        ],
+        "Vegan": [
+            {
+                "name": "Eggplant Katsu Sandwich",
+                "ingredients": [
+                    "White Bread",
+                    " Panko Breadcrumbs",
+                    " Cabbage ",
+                    " Liquid Egg ",
+                    " Japanese Eggplant",
+                    " All Purpose Flour",
+                    " Salt",
+                    " Fresh Ground Black Pepper"
+                ],
+                "nutrition info": {
+                    "calories": 420.0,
+                    "raw_calories": 420.0,
+                    "g_fat": 16.0,
+                    "g_saturated_fat": 2.0,
+                    "g_trans_fat": null,
+                    "mg_cholesterol": 100.0,
+                    "g_carbs": 55.0,
+                    "g_sugar": null,
+                    "g_added_sugar": null,
+                    "mg_sodium": 1140.0,
+                    "mg_potassium": null,
+                    "g_fiber": 3.0,
+                    "g_protein": 12.0,
+                    "mg_iron": 3.8,
+                    "mg_calcium": 66.8,
+                    "mg_vitamin_c": 9.0,
+                    "iu_vitamin_a": null,
+                    "re_vitamin_a": null,
+                    "mg_vitamin_d": null
+                }
+            }
+        ]
+    },
+    "2022-09-05": {
+        "Entree/Sides": [
+            {
+                "name": "Miso Salmon"
+            },
+            {
+                "name": "Gen-Ji-Mai Rice"
+            },
+            {
+                "name": "Braised Bok Choy, Sesame Seeds"
+            }
+        ],
+        "Vegetarian": [
+            {
+                "name": "Thai Curry with Tofu"
+            },
+            {
+                "name": "Gen-Ji-Mai Rice"
+            },
+            {
+                "name": "Braised Bok Choy, Sesame Seeds"
+            }
+        ],
+        "Pizza, Flatbreads": [
+            {
+                "name": "Pepperoni Flatbread Pizza"
+            },
+            {
+                "name": "Cheese Flatbread Pizza"
+            },
+            {
+                "name": "Cheese Pizza, Cauliflower Crust"
+            }
+        ],
+        "Chefs Table": [
+            {
+                "name": "Kalua Pork and Cabbage"
+            },
+            {
+                "name": "Steamed Rice"
+            },
+            {
+                "name": "Chicken Long Rice Soup"
+            },
+            {
+                "name": "Sweet Potato Salad"
+            }
+        ],
+        "Deli": [
+            {
+                "name": "Sliced Pastrami"
+            },
+            {
+                "name": "Sliced Smoked Ham"
+            },
+            {
+                "name": "Potato Chips"
+            },
+            {
+                "name": "Fresh Fruit Salad"
+            }
+        ],
+        "Vegan": [
+            {
+                "name": "Mongolian Seitan and Broccoli"
+            },
+            {
+                "name": "Gen-Ji-Mai Rice"
+            },
+            {
+                "name": "Steamed Fresh Broccoli"
+            }
+        ]
+    },
+    "2022-09-06": {
+        "Entree/Sides": [
+            {
+                "name": "Fried Hoisin Chicken Wings"
+            },
+            {
+                "name": "Steamed Rice"
+            },
+            {
+                "name": "Steamed Fresh Broccoli"
+            }
+        ],
+        "Vegetarian": [
+            {
+                "name": "Vegetable Pad Thai with Peanuts"
+            }
+        ],
+        "Pizza, Flatbreads": [
+            {
+                "name": "Pepperoni Flatbread Pizza"
+            },
+            {
+                "name": "Cheese Flatbread Pizza"
+            },
+            {
+                "name": "Cheese Veggie Pizza, Cauli Crust"
+            }
+        ],
+        "Chefs Table": [
+            {
+                "name": "grilled chicken breast"
+            },
+            {
+                "name": "linguine"
+            },
+            {
+                "name": "Alfredo Sauce"
+            },
+            {
+                "name": "Parmesan Herbed Garlic Bread"
+            },
+            {
+                "name": "Chopped Greek, Chickpea, Olive, Feta"
+            }
+        ],
+        "Deli": [
+            {
+                "name": "Sliced Pastrami"
+            },
+            {
+                "name": "Sliced Smoked Ham"
+            },
+            {
+                "name": "Potato Chips"
+            },
+            {
+                "name": "Fresh Fruit Salad"
+            }
+        ],
+        "Vegan": [
+            {
+                "name": "Vegetable Pad Thai with Peanuts"
+            }
+        ]
+    },
+    "2022-09-07": {
+        "Entree/Sides": [
+            {
+                "name": "St. Louis BBQ Pork Ribs"
+            },
+            {
+                "name": "Garlic Chive Mashed Potatoes"
+            },
+            {
+                "name": "Sauteed Swiss Chard, Red Peppers"
+            }
+        ],
+        "Vegetarian": [
+            {
+                "name": "Chickpeas Quinoa Burger Patty"
+            },
+            {
+                "name": "Garlic Chive Mashed Potatoes"
+            },
+            {
+                "name": "Sauteed Swiss Chard, Red Peppers"
+            }
+        ],
+        "Pizza, Flatbreads": [
+            {
+                "name": "Pepperoni Flatbread Pizza"
+            },
+            {
+                "name": "Cheese Flatbread Pizza"
+            },
+            {
+                "name": "Cheese Veggie Pizza, Cauli Crust"
+            }
+        ],
+        "Chefs Table": [
+            {
+                "name": "Shio Broth, Chicken, Egg, Ramen Bowl"
+            },
+            {
+                "name": "Egg, Tofu, Ginger Miso Ramen Bowl"
+            },
+            {
+                "name": "Cubed Tofu"
+            },
+            {
+                "name": "Chopped Green Onions"
+            }
+        ],
+        "Deli": [
+            {
+                "name": "Thinly Sliced Deli Turkey Breast"
+            },
+            {
+                "name": "Thinly Sliced Deli Roast Beef"
+            },
+            {
+                "name": "Potato Chips"
+            },
+            {
+                "name": "Fresh Fruit Salad"
+            }
+        ],
+        "Vegan": [
+            {
+                "name": "Chickpeas Quinoa Burger Patty"
+            },
+            {
+                "name": "Creamy Mashed Potatoes, Cashew"
+            },
+            {
+                "name": "Roasted Cauliflower with Garlic"
+            }
+        ]
+    },
+    "2022-09-08": {
+        "Entree/Sides": [
+            {
+                "name": "Beef Stew"
+            },
+            {
+                "name": "Roasted Vegetables"
+            },
+            {
+                "name": "Steamed Rice"
+            }
+        ],
+        "Vegetarian": [
+            {
+                "name": "Vegetable Curry"
+            },
+            {
+                "name": "Roasted Vegetables"
+            }
+        ],
+        "Pizza, Flatbreads": [
+            {
+                "name": "Pepperoni Flatbread Pizza"
+            },
+            {
+                "name": "Cheese Flatbread Pizza"
+            },
+            {
+                "name": "Cheese Pizza, Cauliflower Crust"
+            }
+        ],
+        "Chefs Table": [
+            {
+                "name": "Mediterranean Chicken Greek Salad"
+            },
+            {
+                "name": "Lemon Herb Grilled Tofu"
+            }
+        ],
+        "Deli": [
+            {
+                "name": "Thinly Sliced Deli Turkey Breast"
+            },
+            {
+                "name": "Thinly Sliced Deli Roast Beef"
+            },
+            {
+                "name": "Potato Chips"
+            },
+            {
+                "name": "Fresh Fruit Salad"
+            }
+        ],
+        "Vegan": [
+            {
+                "name": "Vegetable Curry"
+            },
+            {
+                "name": "Roasted Vegetables"
+            }
+        ]
+    },
+    "2022-09-09": {
+        "Entree/Sides": [
+            {
+                "name": "Chicken Tikka Masala"
+            },
+            {
+                "name": "Basmati Rice"
+            },
+            {
+                "name": "Steamed Cauliflower"
+            }
+        ],
+        "Vegetarian": [
+            {
+                "name": "Saag Aloo"
+            },
+            {
+                "name": "Basmati Rice"
+            },
+            {
+                "name": "Steamed Cauliflower"
+            }
+        ],
+        "Pizza, Flatbreads": [
+            {
+                "name": "Pepperoni Flatbread Pizza"
+            },
+            {
+                "name": "Cheese Flatbread Pizza"
+            },
+            {
+                "name": "Cheese Pizza, Cauliflower Crust"
+            }
+        ],
+        "Chefs Table": [
+            {
+                "name": "Grilled Pork Chop with Apple Chutney"
+            },
+            {
+                "name": "Panko Breaded Eggplant"
+            },
+            {
+                "name": "Vegan Mexican Rice"
+            },
+            {
+                "name": "Cauliflower Mixed Vegetables"
+            }
+        ],
+        "Deli": [
+            {
+                "name": "Thinly Sliced Deli Turkey Breast"
+            },
+            {
+                "name": "Thinly Sliced Deli Roast Beef"
+            },
+            {
+                "name": "Potato Chips"
+            },
+            {
+                "name": "Fresh Fruit Salad"
+            }
+        ],
+        "Vegan": [
+            {
+                "name": "Saag Aloo"
+            },
+            {
+                "name": "Basmati Rice"
+            },
+            {
+                "name": "Steamed Cauliflower"
+            }
+        ]
+    },
+    "2022-09-12": {
+        "Entree/Sides": [
+            {
+                "name": "Shoyu Chicken"
+            },
+            {
+                "name": "Teriyaki Chicken Fried Rice"
+            },
+            {
+                "name": "Sweet Chili Steamed Vegetables"
+            },
+            {
+                "name": "Steamed Zucchini, Yellow Squash"
+            }
+        ],
+        "Vegetarian": [
+            {
+                "name": "Stir Fried Tofu, Lo Mein Noodles"
+            },
+            {
+                "name": "Steamed Rice"
+            },
+            {
+                "name": "Sweet Chili Steamed Vegetables"
+            }
+        ],
+        "Pizza, Flatbreads": [
+            {
+                "name": "Pepperoni Flatbread Pizza"
+            },
+            {
+                "name": "Cheese Flatbread Pizza"
+            },
+            {
+                "name": "Cheese Pizza, Cauliflower Crust"
+            }
+        ],
+        "Chefs Table": [
+            {
+                "name": "Kalua Pork and Cabbage"
+            },
+            {
+                "name": "Chicken Long Rice Soup"
+            },
+            {
+                "name": "Steamed Rice"
+            },
+            {
+                "name": "Oven Steamed Kabocha Squash"
+            }
+        ],
+        "Deli": [
+            {
+                "name": "Turkey Breast, House Roasted"
+            },
+            {
+                "name": "Rare Deli Roast Beef"
+            },
+            {
+                "name": "Chips, Potato, 1.5 oz"
+            },
+            {
+                "name": "Fresh Fruit Platter"
+            }
+        ],
+        "Vegan": [
+            {
+                "name": "Stir Fried Tofu, Lo Mein Noodles"
+            },
+            {
+                "name": "Steamed Rice"
+            },
+            {
+                "name": "Sweet Chili Steamed Vegetables"
+            }
+        ]
+    },
+    "2022-09-13": {
+        "Entree/Sides": [
+            {
+                "name": "Turkey Bolognese Sauce"
+            },
+            {
+                "name": "Spaghetti"
+            },
+            {
+                "name": "Roasted Butternut Squash"
+            },
+            {
+                "name": "Parmesan Herbed Garlic Bread"
+            }
+        ],
+        "Vegetarian": [
+            {
+                "name": "Vegan Lentil Bolognese"
+            },
+            {
+                "name": "Roasted Butternut Squash"
+            },
+            {
+                "name": "Parmesan Herbed Garlic Bread"
+            }
+        ],
+        "Pizza, Flatbreads": [
+            {
+                "name": "Pepperoni Flatbread Pizza"
+            },
+            {
+                "name": "Cheese Flatbread Pizza"
+            },
+            {
+                "name": "Cheese Pizza, Cauliflower Crust"
+            }
+        ],
+        "Chefs Table": [
+            {
+                "name": "Korean Fried Chicken, Rice Bowl, Egg"
+            },
+            {
+                "name": "Spicy Korean Braised Sesame Tofu"
+            },
+            {
+                "name": "Kimchi Fried Rice"
+            },
+            {
+                "name": "Soba Noodle, Kimchi, Cucumber Salad"
+            },
+            {
+                "name": "Kimchi"
+            }
+        ],
+        "Deli": [
+            {
+                "name": "Sliced Smoked Ham"
+            },
+            {
+                "name": "Sliced Pastrami"
+            },
+            {
+                "name": "Chips, Potato, 1.5 oz"
+            },
+            {
+                "name": "Fresh Fruit Platter"
+            }
+        ],
+        "Vegan": [
+            {
+                "name": "Lentil Bolognese over Zoodles"
+            },
+            {
+                "name": "Roasted Butternut Squash"
+            },
+            {
+                "name": "Parmesan Herbed Garlic Bread"
+            }
+        ]
+    },
+    "2022-09-14": {
+        "Entree/Sides": [
+            {
+                "name": "Fried Chicken Tenders"
+            },
+            {
+                "name": "Baked Tater Tots"
+            },
+            {
+                "name": "Vegetable Medley"
+            }
+        ],
+        "Vegetarian": [
+            {
+                "name": "Creamy Jalapeno Macaroni, Cheese"
+            }
+        ],
+        "Pizza, Flatbreads": [
+            {
+                "name": "Pepperoni Flatbread Pizza"
+            },
+            {
+                "name": "Cheese Pizza, Cauliflower Crust"
+            },
+            {
+                "name": "Cheese Flatbread Pizza"
+            }
+        ],
+        "Chefs Table": [
+            {
+                "name": "Loco Moco"
+            },
+            {
+                "name": "Meatless Burger"
+            },
+            {
+                "name": "Macaroni Salad"
+            },
+            {
+                "name": "Mushroom Beef Gravy"
+            }
+        ],
+        "Deli": [
+            {
+                "name": "Turkey Breast, House Roasted"
+            },
+            {
+                "name": "Rare Deli Roast Beef"
+            },
+            {
+                "name": "Chips, Potato, 1.5 oz"
+            },
+            {
+                "name": "Fresh Fruit Platter"
+            }
+        ],
+        "Vegan": [
+            {
+                "name": "Creamy Jalapeno Macaroni, Cheese"
+            }
+        ]
+    },
+    "2022-09-15": {
+        "Entree/Sides": [
+            {
+                "name": "Revved Up Beef Sloppy Joe"
+            },
+            {
+                "name": "Brioche Bun"
+            },
+            {
+                "name": "Garlic Roasted Potatoes"
+            },
+            {
+                "name": "Steamed Broccoli"
+            },
+            {
+                "name": "Chopped Coleslaw"
+            }
+        ],
+        "Vegetarian": [
+            {
+                "name": "Vegetable Sloppy Joe"
+            },
+            {
+                "name": "Roasted Vegetables"
+            }
+        ],
+        "Pizza, Flatbreads": [
+            {
+                "name": "Pepperoni Flatbread Pizza"
+            },
+            {
+                "name": "Cheese Flatbread Pizza"
+            },
+            {
+                "name": "Cheese Pizza, Cauliflower Crust"
+            }
+        ],
+        "Chefs Table": [
+            {
+                "name": "Grilled Chicken Caesar Salad"
+            },
+            {
+                "name": "Caesar with Grilled Tofu"
+            }
+        ],
+        "Deli": [
+            {
+                "name": "Sliced Smoked Ham"
+            },
+            {
+                "name": "Sliced Pastrami"
+            },
+            {
+                "name": "Chips, Potato, 1.5 oz"
+            },
+            {
+                "name": "Fresh Fruit Platter"
+            }
+        ],
+        "Vegan": [
+            {
+                "name": "Vegetable Sloppy Joe"
+            },
+            {
+                "name": "Roasted Vegetables"
+            }
+        ]
+    },
+    "2022-09-16": {
+        "Entree/Sides": [
+            {
+                "name": "Pork Tonkatsu"
+            },
+            {
+                "name": "Gen-Ji-Mai Rice"
+            },
+            {
+                "name": "Roasted Vegetables"
+            }
+        ],
+        "Vegetarian": [
+            {
+                "name": "Eggplant Katsu Sandwich"
+            },
+            {
+                "name": "Gen-Ji-Mai Rice"
+            }
+        ],
+        "Pizza, Flatbreads": [
+            {
+                "name": "Pepperoni Flatbread Pizza"
+            },
+            {
+                "name": "Cheese Flatbread Pizza"
+            },
+            {
+                "name": "Cheese Pizza, Cauliflower Crust"
+            }
+        ],
+        "Chefs Table": [
+            {
+                "name": "Shio Broth, Chicken, Egg, Ramen Bowl"
+            },
+            {
+                "name": "Ginger Miso Shiitake Ramen Bowl Tofu"
+            },
+            {
+                "name": "Chopped Green Onions"
+            },
+            {
+                "name": "Chopped Hard Cooked Eggs"
+            }
+        ],
+        "Deli": [
+            {
+                "name": "Turkey Breast, House Roasted"
+            },
+            {
+                "name": "Rare Deli Roast Beef"
+            },
+            {
+                "name": "Chips, Potato, 1.5 oz"
+            },
+            {
+                "name": "Fresh Fruit Platter"
+            }
+        ],
+        "Vegan": [
+            {
+                "name": "Eggplant Katsu Sandwich"
+            },
+            {
+                "name": "Gen-Ji-Mai Rice"
+            }
+        ]
+    }
+}
