@@ -27,12 +27,14 @@ The way I have found importing the package and its module to be most intuitive i
 import hpa_menu.parse as menu
 
 # Then using the package to create a python dict object of the week's menu data can be as easy as:
-weeks_dictionary_data = menu.collect_week("YYYY-MM-DD") # Date must be in this format.
+## note: default meal data will be lunch unless otherwise specified with the meal= parameter. 
+weeks_dictionary_data = menu.collect_week("YYYY-MM-DD", meal='dinner') # Date must be in this format. Only provide lowercase meal names ('breakfast, brunch, lunch, dinner')
 ```
 The ```collect_week()``` and ```collect_month()``` function's take 1 required argument and 3 optional arguments. 
 The ```date``` argument for the ```collect_week()``` function must be a string in the "YYYY-MM-DD" format. 
 
 The optional arguments for the `collect_month()` function are:
+`meal='lunch'(default)`: You can specify the meal to be collected, lunch is the default.
 `full_week=False(default)`: True will include a whole weeks data even if some days in the begginning or ending week doesn't occur in the given month. For example if Feb 1 is a thursday, the dataset will also include the Mon Tues Wed of the previous January. False will not include another month's data.
 `nutrition_info=True(default)`: True will include all the nutritional info for each dish in the nested dictionary with "nutrition info" as the key
 `ingredients=True(default)`: True will include all the ingrediends that Flik provides for each dish in the nested dictionary with "ingredients" as the key.

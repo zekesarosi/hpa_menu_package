@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: hpa-menu-scraper
+Version: 0.2.2
+Summary: A package to scrape the HPA menu
+Author-email: Zeke Sarosi <zeke.sarosi@gmail.com>
+Project-URL: Homepage, https://github.com/zekesarosi/hpa_menu_package
+Project-URL: Bug Tracker, https://github.com/zekesarosi/hpa_menu_package/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
