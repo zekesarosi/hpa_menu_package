@@ -1,6 +1,26 @@
 [build-system]
 requires = [
+    "requests",
     "setuptools>=54",
     "wheel"
 ]
-build-backend = "setuptools.build_meta"
+
+[project]
+name = "hpa-menu-scraper"
+description = "A package to scrape the HPA menu"
+version = "0.2.2"
+authors = [
+  { name="Zeke Sarosi", email="zeke.sarosi@gmail.com" },
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+
+
+[project.urls]
+"Homepage" = "https://github.com/zekesarosi/hpa_menu_package"
+"Bug Tracker" = "https://github.com/zekesarosi/hpa_menu_package/issues"
